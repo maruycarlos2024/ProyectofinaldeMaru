@@ -1,0 +1,118 @@
+h2 {
+    text-align: center;
+    color:white;
+    text-shadow: rgb(41, 4, 4) 0.1em 0.1em 0.2em;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(196, 232, 253);
+    color: #333;
+}
+
+.filtro {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+    background-color: #e67ab9;
+    box-shadow: 0 4px 6px rgb(100, 89, 89);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    font-size: 20px;
+    color: #332f35;
+}
+
+#producto {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #8673f0;
+    box-shadow: 0 4px 6px rgb(0, 30, 48);
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #7697f3da;
+    text-shadow: 0 4px 8px black;
+    box-shadow: 0 4px 6px rgb(100, 89, 89);
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #03030377;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.producto {
+    padding: 15px;
+    background-color: #cea3eb;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(14, 13, 14);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.producto p {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: white;
+    text-shadow: #050505 0.1em 0.1em 0.2em;
+}
+
+.producto button {
+    background-color: white;
+    padding: 10px 20px;
+    color: rgb(20, 20, 20);
+    box-shadow: 0 4px 6px rgb(128, 128, 128);
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.producto button:hover {
+    background-color: #7697f3da;
+}
+
+.carrito {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e67ab9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carrito p {
+    font-size: 1rem;
+    text-align: center;
+    color: #fdfcfc;
+    text-shadow: #070707 0.1em 0.1em 0.2em;
+}
